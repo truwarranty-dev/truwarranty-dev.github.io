@@ -826,7 +826,7 @@ function setFiles(jsonResponse) {
             footFlex.style.setProperty('gap', '6px', 'important');
             footFlex.style.height = '20%';
             footFlex.style.zIndex = '3';
-            footFlex.style.backgroundColor = '#171717';
+            footFlex.style.backgroundColor = '#f2f2f2';
 
                 const nameDiv = document.createElement('div');
                 footFlex.appendChild(nameDiv);
