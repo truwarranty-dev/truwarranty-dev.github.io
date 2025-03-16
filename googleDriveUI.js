@@ -357,7 +357,7 @@ function setFilepath(id, num, foldID, name) {
             pathArray[i].style.color = tertiary;
             pathArray[i].style.fontWeight = '700';
         } else {
-            pathArray[i].style.color = '#ffffff80'
+            pathArray[i].style.color = '#171717'
             pathArray[i].style.fontWeight = '500';
             backBtn.style.color = iconColor;
         }
@@ -401,7 +401,7 @@ function hoverEffect(el, num) {
             const elFoot = el.getElementsByClassName('footFlex');
             const pdfIcon = el.getElementsByClassName('pdf-icon');
             
-            if (elFoot[0].style.backgroundColor === 'rgb(23, 23, 23)') {
+            if (elFoot[0].style.backgroundColor === '#f2f2f2') {
                 el.style.zIndex = '10'
                 elFoot[0].style.backgroundColor = tertiary;
                 pdfIcon[0].style.color = iconColor;
@@ -412,18 +412,18 @@ function hoverEffect(el, num) {
                 }
             } else {
                 el.style.zIndex = '';
-                elFoot[0].style.backgroundColor = '#171717';
+                elFoot[0].style.backgroundColor = '#f2f2f2';
                 pdfIcon[0].style.color = tertiary;
                 el.style.transform = '';
 
             }
             break;
         case 2:
-            if (el.style.backgroundColor === 'rgb(23, 23, 23)') {
+            if (el.style.backgroundColor === '#f2f2f2') {
                 el.style.backgroundColor = tertiary;
                 el.style.transform = 'scale(1.08)';
             } else {
-                el.style.backgroundColor = '#171717';
+                el.style.backgroundColor = '#f2f2f2';
                 el.style.transform = '';
             }
             break;
@@ -1301,7 +1301,7 @@ uiHeader.style.setProperty('padding-right', '35px', 'important');
         backBtn.setAttribute('class', 'gdui-mobile gdui-tablet');
         backBtn.style.setProperty('background', 'none', 'important');
         backBtn.style.setProperty('border', 'none', 'important');
-        backBtn.style.color = iconColor;
+        backBtn.style.color = 'black';
 
             const backIcon = document.createElement('i');
             backBtn.appendChild(backIcon);
@@ -1618,7 +1618,7 @@ uiHeader.style.setProperty('padding-right', '35px', 'important');
     const headerSep = document.createElement('hr');
     googDiv.appendChild(headerSep);
     headerSep.style.setProperty('border-color', secondary, 'important');
-    headerSep.style.setProperty('width', '99%', 'important');
+    headerSep.style.setProperty('width', '100%', 'important');
 
 
 //UI file selector
@@ -1650,7 +1650,7 @@ UIFileSelector.style.setProperty('margin-bottom', '20px', 'important');
 const footerSep = document.createElement('hr');
 googDiv.appendChild(footerSep);
 footerSep.style.setProperty('border-color', '#171717', 'important');
-footerSep.style.setProperty('width', '99%', 'important');
+footerSep.style.setProperty('width', '100%', 'important');
 
 const UIFooter = document.createElement('div');
 googDiv.appendChild(UIFooter);
@@ -1670,13 +1670,13 @@ UIFooter.style.setProperty('padding-right', '35px', 'important');
     downloadButton.style.setProperty('display', 'flex', 'important');
     downloadButton.style.setProperty('justify-content', 'center', 'important');
     downloadButton.style.setProperty('align-items', 'center', 'important');
-    downloadButton.style.setProperty('border', '1px solid #ffffff80', 'important');
+    downloadButton.style.setProperty('border', '1px solid #171717', 'important');
     downloadButton.style.setProperty('font-weight', '700', 'important');
     downloadButton.style.setProperty('outline', 'none', 'important');
     downloadButton.style.setProperty('height', '40px', 'important');
     downloadButton.style.setProperty('font', 'revert', 'important');
     downloadButton.style.backgroundColor = 'transparent';
-    downloadButton.style.color = '#ffffff80';
+    downloadButton.style.color = '#171717';
     downloadButton.style.cursor = 'pointer';
 
         const downloadText = document.createElement('p');
