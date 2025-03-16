@@ -793,8 +793,8 @@ function setFiles(jsonResponse) {
                     fileSelectorCheck.style.setProperty('position', 'absolute', 'important');
                     fileSelectorCheck.style.setProperty('z-index', '4', 'important');
                     fileSelectorCheck.style.setProperty('margin-top', '9px', 'important');
-                    fileSelectorCheck.style.setProperty('margin-left', '5px', 'important');
-                    fileSelectorCheck.style.setProperty('color', '#171717', 'important');
+                    fileSelectorCheck.style.setProperty('margin-left', '4px', 'important');
+                    fileSelectorCheck.style.setProperty('color', '#ffffff', 'important');
 
                     const fileSelectorSpan = document.createElement('span');
                     selectorDiv.appendChild(fileSelectorSpan);
