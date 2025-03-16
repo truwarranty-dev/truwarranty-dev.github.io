@@ -2,10 +2,14 @@ const googDiv = document.getElementById("googleDrive");
 var arrayPath = [googDiv.dataset.folder];
 var ascending = true;
 var textIcons = false;
-var primary = '#090909';
-var secondary = '#222222';
-var tertiary = '#B12127';
-var iconColor = 'white';
+var primary = '#ffffff';
+var secondary = '#f2f2f2';
+var tertiary = '#000000';
+var iconColor = 'black';
+//var primary = '#090909';
+//var secondary = '#222222';
+//var tertiary = '#B12127';
+//var iconColor = 'white';
 var fontStyle = "'Roboto', sans-serif";
 
 
