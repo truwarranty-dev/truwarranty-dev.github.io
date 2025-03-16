@@ -1129,7 +1129,7 @@ function ComputerCSS(desktopDivs, tabletDivs, mobileDivs, folderButtons, fileCar
 
     //UIFooter
     UIFooter.style.justifyContent = 'flex-end';
-    UIFooter.style.paddingRight = '35px';
+    UIFooter.style.paddingRight = '0px';
 
         downloadButton.style.width = '200px';
 };
@@ -1280,8 +1280,8 @@ uiHeader.style.setProperty('display', 'flex', 'important');
 uiHeader.style.setProperty('alignItems', 'center', 'important');
 uiHeader.style.setProperty('margin-top', '10px', 'important');
 uiHeader.style.setProperty('margin-bottom', '10px', 'important');
-uiHeader.style.setProperty('padding-left', '35px', 'important');
-uiHeader.style.setProperty('padding-right', '35px', 'important');
+uiHeader.style.setProperty('padding-left', '5px', 'important');
+uiHeader.style.setProperty('padding-right', '0px', 'important');
 
     const filepath = document.createElement('div');
     uiHeader.appendChild(filepath);
