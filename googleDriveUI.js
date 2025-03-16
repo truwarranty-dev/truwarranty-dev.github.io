@@ -1337,7 +1337,7 @@ uiHeader.style.setProperty('padding-right', '0px', 'important');
     fileSearch.style.setProperty('flex-direction', 'row', 'important');
     fileSearch.style.justifyContent = 'flex-end';
     fileSearch.style.setProperty('align-items', 'center', 'important');
-    fileSearch.style.setProperty('margin-right', '5px', 'important');
+    fileSearch.style.setProperty('margin-right', '0px', 'important');
     fileSearch.style.width = '60%';
     fileSearch.style.setProperty('height', '50px', 'important');
 
