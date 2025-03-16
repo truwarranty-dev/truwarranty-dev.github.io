@@ -581,7 +581,8 @@ function setFolders(jsonResponse) {
         backFold.setAttribute('onmouseleave', 'hoverEffect(this, 2)');
         backFold.setAttribute('class', 'goog-folder');
         backFold.style.setProperty('margin-bottom', '20px', 'important');
-        backFold.style.setProperty('box-shadow', 'rgba(149, 157, 165, 0.4) 0px 0px 6px', 'important');
+        backFold.style.setProperty('box-shadow', 'rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px', 'important');
+        backFold.style.setProperty('border-radius', '3px', 'important');
         backFold.style.setProperty('font-size', '12px', 'important');
         backFold.style.setProperty('transition', 'all .2s ease-in-out', 'important');
         backFold.style.setProperty('color', '#000000', 'important');
@@ -653,7 +654,8 @@ function setFolders(jsonResponse) {
         folderViewer.setAttribute('onmouseleave', 'hoverEffect(this, 2)');
         folderViewer.style.setProperty('margin-right', '20px', 'important');
         folderViewer.style.setProperty('margin-bottom', '20px', 'important');
-        folderViewer.style.setProperty('box-shadow', 'rgba(149, 157, 165, 0.4) 0px 0px 6px', 'important');
+        folderViewer.style.setProperty('box-shadow', 'rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px', 'important');
+        folderViewer.style.setProperty('border-radius', '3px', 'important');
         folderViewer.style.setProperty('font-size', '12px', 'important');
         folderViewer.style.setProperty('transition', 'all .2s ease-in-out', 'important');
         folderViewer.style.setProperty('min-height', '40px', 'important');
