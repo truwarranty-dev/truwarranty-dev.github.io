@@ -1659,7 +1659,7 @@ UIFooter.style.setProperty('background-color', primary, 'important');
 UIFooter.style.setProperty('display', 'flex', 'important');
 UIFooter.style.setProperty('padding-top', '10px', 'important');
 UIFooter.style.setProperty('padding-bottom', '10px', 'important');
-UIFooter.style.setProperty('padding-right', '35px', 'important');
+UIFooter.style.setProperty('padding-right', '0px', 'important');
 
     const downloadButton = document.createElement('button');
     UIFooter.appendChild(downloadButton);
