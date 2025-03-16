@@ -653,12 +653,12 @@ function setFolders(jsonResponse) {
         folderViewer.setAttribute('onmouseleave', 'hoverEffect(this, 2)');
         folderViewer.style.setProperty('margin-right', '20px', 'important');
         folderViewer.style.setProperty('margin-bottom', '20px', 'important');
-        folderViewer.style.setProperty('box-shadow', '0px 0px 10px 4px rgb(0 0 0 / 88%)', 'important');
+        folderViewer.style.setProperty('box-shadow', '0px 0px 10px 4px rgb(0 0 0 / 8%)', 'important');
         folderViewer.style.setProperty('font-size', '12px', 'important');
         folderViewer.style.setProperty('transition', 'all .2s ease-in-out', 'important');
         folderViewer.style.setProperty('min-height', '40px', 'important');
         folderViewer.style.width = '215px';
-        folderViewer.style.backgroundColor = '#171717';
+        folderViewer.style.backgroundColor = '#f2f2f2';
         folderViewer.style.cursor = 'pointer';
 
             const desktopVer = document.createElement('div');
