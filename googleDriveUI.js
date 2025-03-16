@@ -1268,7 +1268,7 @@ function PhoneCSS(desktopDivs, tabletDivs, mobileDivs, folderButtons, fileCard, 
 googDiv.style.setProperty('display', 'flex', 'important');
 googDiv.style.setProperty('flex-direction', 'column', 'important');
 googDiv.style.outline = true;
-googDiv.style.setProperty('background-color', primary, 'important');
+googDiv.style.setProperty('background-color', 'transparent', 'important');
 googDiv.style.setProperty('margin-bottom', '10px', 'important');
 googDiv.style.color = 'black';
 googDiv.style.fontFamily = fontStyle;
@@ -1657,7 +1657,7 @@ footerSep.style.setProperty('width', '100%', 'important');
 const UIFooter = document.createElement('div');
 googDiv.appendChild(UIFooter);
 UIFooter.setAttribute('id', 'ui-footer');
-UIFooter.style.setProperty('background-color', primary, 'important');
+UIFooter.style.setProperty('background-color', 'transparent', 'important');
 UIFooter.style.setProperty('display', 'flex', 'important');
 UIFooter.style.setProperty('padding-top', '10px', 'important');
 UIFooter.style.setProperty('padding-bottom', '10px', 'important');
