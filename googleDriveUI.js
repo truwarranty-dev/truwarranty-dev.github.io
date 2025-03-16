@@ -479,7 +479,7 @@ function downHov(num) {
             downloadButton.style.color = iconColor;
             break;
         case 2:
-            downloadButton.style.color = '#ffffff80';
+            downloadButton.style.color = '#f2f2f2';
             break;
         default:
             console.error('Hover effect on download button failed');
@@ -751,7 +751,7 @@ function setFiles(jsonResponse) {
         fileViewer.style.setProperty('flex-direction', 'column', 'important');
         fileViewer.style.setProperty('transition', 'all .2s ease-in-out', 'important')
         fileViewer.style.setProperty('background-color', secondary, 'important');
-        fileViewer.style.setProperty('box-shadow', '0px 0px 10px 4px rgb(0 0 0 / 88%)', 'important');
+        fileViewer.style.setProperty('box-shadow', 'rgba(149, 157, 165, 0.4) 0px 0px 6px', 'important');
         fileViewer.style.setProperty('font-size', '12px', 'important');
         fileViewer.style.setProperty('margin-bottom', '20px', 'important');
         fileViewer.style.marginRight = '20px';
@@ -1670,13 +1670,13 @@ UIFooter.style.setProperty('padding-right', '0px', 'important');
     downloadButton.style.setProperty('display', 'flex', 'important');
     downloadButton.style.setProperty('justify-content', 'center', 'important');
     downloadButton.style.setProperty('align-items', 'center', 'important');
-    downloadButton.style.setProperty('border', '1px solid #171717', 'important');
+    downloadButton.style.setProperty('border', '1px solid #f2f2f2', 'important');
     downloadButton.style.setProperty('font-weight', '700', 'important');
     downloadButton.style.setProperty('outline', 'none', 'important');
     downloadButton.style.setProperty('height', '40px', 'important');
     downloadButton.style.setProperty('font', 'revert', 'important');
     downloadButton.style.backgroundColor = 'transparent';
-    downloadButton.style.color = '#171717';
+    downloadButton.style.color = '#f2f2f2';
     downloadButton.style.cursor = 'pointer';
 
         const downloadText = document.createElement('p');
