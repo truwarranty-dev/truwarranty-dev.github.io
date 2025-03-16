@@ -1625,8 +1625,8 @@ uiHeader.style.setProperty('padding-right', '35px', 'important');
 const UIFileSelector = document.createElement('div');
 googDiv.appendChild(UIFileSelector);
 UIFileSelector.setAttribute('id', 'ui-file-selector');
-UIFileSelector.style.setProperty('padding-left', '35px', 'important');
-UIFileSelector.style.setProperty('padding-right', '35px', 'important');
+UIFileSelector.style.setProperty('padding-left', '5px', 'important');
+UIFileSelector.style.setProperty('padding-right', '5px', 'important');
 UIFileSelector.style.setProperty('margin-top', '20px', 'important');
 UIFileSelector.style.setProperty('margin-bottom', '20px', 'important');
 
