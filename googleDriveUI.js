@@ -581,13 +581,13 @@ function setFolders(jsonResponse) {
         backFold.setAttribute('onmouseleave', 'hoverEffect(this, 2)');
         backFold.setAttribute('class', 'goog-folder');
         backFold.style.setProperty('margin-bottom', '20px', 'important');
-        backFold.style.setProperty('box-shadow', '0px 0px 10px 4px rgb(0 0 0 / 88%)', 'important');
+        backFold.style.setProperty('box-shadow', '0px 0px 10px 4px rgb(0 0 0 / 8%)', 'important');
         backFold.style.setProperty('font-size', '12px', 'important');
         backFold.style.setProperty('transition', 'all .2s ease-in-out', 'important');
-        backFold.style.setProperty('color', '#ffffff80', 'important');
+        backFold.style.setProperty('color', '#000000', 'important');
         backFold.style.setProperty('font-weight', '500', 'important');
         backFold.style.width = '215px';
-        backFold.style.backgroundColor = '#171717';
+        backFold.style.backgroundColor = '#f2f2f2';
         backFold.style.cursor = 'pointer';
 
             const deskVersion = document.createElement('div');
