@@ -1268,7 +1268,7 @@ googDiv.style.setProperty('flex-direction', 'column', 'important');
 googDiv.style.outline = true;
 googDiv.style.setProperty('background-color', primary, 'important');
 googDiv.style.setProperty('margin-bottom', '10px', 'important');
-googDiv.style.color = 'white';
+googDiv.style.color = 'black';
 googDiv.style.fontFamily = fontStyle;
 
 
