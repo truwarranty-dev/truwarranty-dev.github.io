@@ -1068,7 +1068,7 @@ function initSingleDriveBrowser(browserEl, instanceIndex) {
     magButton.style.background='none';
     magButton.style.border='none';
     magButton.style.color=iconColor;
-    magButton.style.height='2.5em';
+    magButton.style.height='auto';
     magButton.style.font='revert';
     const magGlassIcon = document.createElement('i');
     magGlassIcon.id='mag-ico-'+idx;
