@@ -1308,4 +1308,3 @@ function initSingleDriveBrowser(browserEl, instanceIndex) {
     };
   }
 } // end initSingleDriveBrowser
-</script>
