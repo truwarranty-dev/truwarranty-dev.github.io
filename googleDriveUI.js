@@ -770,7 +770,9 @@ function setFiles(jsonResponse) {
                 previewImage.setAttribute('src', file.thumbnailLink);
                 previewImage.setAttribute('onclick', `openFile('${file.webViewLink}')`);
                 previewImage.style.setProperty('z-index', '1', 'important');
-                previewImage.style.setProperty('position', 'absolute', 'important');
+                //previewImage.style.setProperty('position', 'absolute', 'important');
+                previewImage.style.setProperty('position', 'relative', 'important');
+                previewImage.style.setProperty('object-fit', 'cover', 'important');
                 previewImage.style.setProperty('max-height', '250px', 'important');
                 previewImage.style.setProperty('min-height', '200px', 'important');
                 previewImage.style.width = `215px`;
