@@ -773,6 +773,7 @@ function setFiles(jsonResponse) {
                 //previewImage.style.setProperty('position', 'absolute', 'important');
                 previewImage.style.setProperty('position', 'relative', 'important');
                 previewImage.style.setProperty('object-fit', 'cover', 'important');
+                previewImage.style.setProperty('object-position', 'top left', 'important');
                 previewImage.style.setProperty('max-height', '250px', 'important');
                 previewImage.style.setProperty('min-height', '200px', 'important');
                 previewImage.style.width = `215px`;
