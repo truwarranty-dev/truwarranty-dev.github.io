@@ -1039,8 +1039,10 @@ function setFiles(jsonResponse) {
             };
 };
 async function GetDriveInfo(desFolder, num) {
-    const url = 'https://www.googleapis.com/drive/v3/files?q="' + desFolder + '"+in+parents&key=' + 
-                googDiv.dataset.apikey + '&fields=files(id, name, mimeType, thumbnailLink, webViewLink)';
+    const url = 'https://www.googleapis.com/drive/v3/files?q="' + desFolder + '"+in+parents' +
+    '&orderBy=name' +
+    '&key=' + googDiv.dataset.apikey +
+    '&fields=files(id, name, mimeType, thumbnailLink, webViewLink)';
     try {
         xhr = new XMLHttpRequest();
         xhr.open("GET", url);
