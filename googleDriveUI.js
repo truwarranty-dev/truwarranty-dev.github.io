@@ -764,6 +764,7 @@ function setFiles(jsonResponse) {
             fileViewer.appendChild(bodFlex);
             bodFlex.setAttribute('class', 'bodFlex');
             bodFlex.style.setProperty('height', '80%', 'important');
+            bodFlex.style.setProperty('position', 'relative', 'important');
 
                 const previewImage = document.createElement('img');
                 bodFlex.appendChild(previewImage);
@@ -783,10 +784,12 @@ function setFiles(jsonResponse) {
                 const selectorDiv = document.createElement('div');
                 bodFlex.appendChild(selectorDiv);
                 selectorDiv.style.setProperty('z-index', '2', 'important');
-                selectorDiv.style.setProperty('position', 'relative', 'important');
+                selectorDiv.style.setProperty('position', 'absolute', 'important');
                 selectorDiv.style.setProperty('float', 'right', 'important');
                 selectorDiv.style.setProperty('margin-top', '10px', 'important');
                 selectorDiv.style.setProperty('margin-right', '10px', 'important');
+                selectorDiv.style.setProperty('top', '0', 'important');
+                selectorDiv.style.setProperty('right', '0', 'important');
                 selectorDiv.style.cursor = 'pointer';
 
                     const fileSelectorCheck = document.createElement('i');
